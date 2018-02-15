@@ -6,7 +6,7 @@
 
 int main()
 {
-	Main::startIndexing("http://crawlertest.cs.tu-varna.bg/", 2);
+	Main::startIndexing("http://sportal.bg/", 2);
 	Main::indexedPages.sort();
 	std::string searchString;
 
